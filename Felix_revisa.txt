@@ -1,0 +1,30 @@
+    1  mkdir tutorial_terminal
+    2  cd tutorial_terminal/
+    3  touch hello_world.py
+    4  nano hello_world.py
+    5  mkdir scripts_python
+    6  mv hello_world.py scripts_python
+    7  mkdir bash_scripts
+    8  cd bash_scripts
+    9  touch ejecuta_python.sh
+   10  nano ejecuta_python.sh 
+   11  chmod +x ejecuta_python.sh 
+   12  ./ ejecuta_python.sh 
+   13  ./ejecuta_python.sh 
+   14  cd..
+   15  cd ..
+   16  cd scripts_python/
+   17  cp hello_world.py copia_hello_world.py
+   18  mkdir outputs
+   19  nano copia_hello_world.py 
+   20  python3 copia_hello_world.py 
+   21  rm hello_world.py 
+   22  ls
+   23  mkdir data
+   24  cd data
+   25  wget https://getsamplefiles.com/download/tar/sample
+   26  ls
+   27  tar -xvf sample
+   28  find -name  "*.doc" 
+   29  pwd
+   30  history
